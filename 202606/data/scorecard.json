@@ -1,0 +1,37 @@
+{
+  "analysis_date": "2026-06-05",
+  "checks": [
+    {
+      "name": "Stress index 7d > P90(30d hist)",
+      "fired": false,
+      "details": "7d=+0.295  P90=+0.314"
+    },
+    {
+      "name": "XAU-SPX 7d corr > +0.5 (flight broken)",
+      "fired": true,
+      "details": "corr=+0.765"
+    },
+    {
+      "name": "Avg tech max-DD from 30d peak < -10%",
+      "fired": true,
+      "details": "avg_dd=-12.4%"
+    },
+    {
+      "name": "VIX > 30 or VIX 7d return > +50%",
+      "fired": false,
+      "details": "VIX=21.5  7d=+36.7%"
+    },
+    {
+      "name": "Both metals 7d < -3%",
+      "fired": true,
+      "details": "XAU 7d=-3.2%  XAG 7d=-10.1%"
+    },
+    {
+      "name": "PCA absorption ratio AR(1) > P90 hist",
+      "fired": false,
+      "details": "AR(1)=0.426  P90=0.449"
+    }
+  ],
+  "score": 3,
+  "max_score": 6
+}
